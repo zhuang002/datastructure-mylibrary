@@ -74,7 +74,7 @@ public class MyChainList extends MyList{
     }
 
     @Override
-    public void remove(int index) {
+    public void removeAt(int index) {
         int i=0;
         ChainNode node=this.head;
         while (node!=null) {

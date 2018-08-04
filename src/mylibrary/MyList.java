@@ -19,7 +19,7 @@ abstract public class MyList {
 
     abstract public void add(Object element);
 
-    abstract public void remove(int index);
+    abstract public void removeAt(int index);
 
     abstract public void remove(Object element);
 
